@@ -1,5 +1,7 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/v2/theming/
+$font-path: "../assets/fonts";
+
 @import "ionic.globals";
 
 
@@ -23,7 +25,7 @@ $background-color:  #fff;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #c41200,
+  primary:    #488aff,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -33,6 +35,7 @@ $colors: (
 $toolbar-background: #c41200;
 $tabs-ios-background: #f4f4f4;
 $tabs-md-background: #f4f4f4;
+
 
 
 // App iOS Variables
@@ -71,5 +74,11 @@ $tabs-md-background: #f4f4f4;
 // The premium icon font for Ionic. For more info, please see:
 // http://ionicframework.com/docs/v2/ionicons/
 
-$ionicons-font-path: "../assets/fonts";
-@import "ionicons";
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
