@@ -11,7 +11,7 @@
   <ion-list>
     <ion-item-sliding>
       <button ion-item *ngFor="let chat of this.chats.all()" (click)="openItem(chat)">
-        <ion-avatar item-left>
+        <ion-avatar item-start>
           <img [src]="chat.face">
         </ion-avatar>
         <h2>{{chat.name}}</h2>
