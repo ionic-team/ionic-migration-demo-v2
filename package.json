@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
+  "name": "ionic-migration-demo-v2",
   "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "homepage": "https://ionicframework.com/",
   "private": true,
   "scripts": {
     "ionic:build": "ionic-app-scripts build",
